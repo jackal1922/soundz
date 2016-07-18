@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  soundz
+//  AJ Player
 //
-//  Created by 潘則諺 on 2016/7/19.
+//  Created by 潘則諺 on 2016/6/15.
 //  Copyright © 2016年 Jackal Pan. All rights reserved.
 //
 
@@ -16,9 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        NSThread.sleepForTimeInterval(3)
         return true
     }
-
+    
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
+//        // Override point for customization after application launch.
+//        return true
+//    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

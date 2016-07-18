@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126FA32E1D3D3B3700969645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126FA32A1D3D3B3700969645 /* LaunchScreen.storyboard */; };
+		126FA32F1D3D3B3700969645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126FA32C1D3D3B3700969645 /* Main.storyboard */; };
+		126FA3351D3D3B5000969645 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126FA3301D3D3B5000969645 /* ActionButton.swift */; };
+		126FA3361D3D3B5000969645 /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126FA3311D3D3B5000969645 /* ActionButtonItem.swift */; };
+		126FA3371D3D3B5000969645 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 126FA3321D3D3B5000969645 /* background1.jpg */; };
+		126FA3381D3D3B5000969645 /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126FA3331D3D3B5000969645 /* CircularSlider.swift */; };
+		126FA3391D3D3B5000969645 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126FA3341D3D3B5000969645 /* MarqueeLabel.swift */; };
 		12A90CDA1D3D353200A08BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A90CD91D3D353200A08BF3 /* AppDelegate.swift */; };
 		12A90CDC1D3D353200A08BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A90CDB1D3D353200A08BF3 /* ViewController.swift */; };
-		12A90CDF1D3D353200A08BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A90CDD1D3D353200A08BF3 /* Main.storyboard */; };
 		12A90CE11D3D353200A08BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A90CE01D3D353200A08BF3 /* Assets.xcassets */; };
-		12A90CE41D3D353200A08BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A90CE21D3D353200A08BF3 /* LaunchScreen.storyboard */; };
 		12A90CEF1D3D353300A08BF3 /* soundzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A90CEE1D3D353300A08BF3 /* soundzTests.swift */; };
 		12A90CFA1D3D353300A08BF3 /* soundzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A90CF91D3D353300A08BF3 /* soundzUITests.swift */; };
+		12A90D151D3D368E00A08BF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A90D141D3D368E00A08BF3 /* AVFoundation.framework */; };
+		12A90D171D3D36A100A08BF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A90D161D3D36A100A08BF3 /* MediaPlayer.framework */; };
+		12A90D191D3D36AB00A08BF3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A90D181D3D36AB00A08BF3 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126FA32B1D3D3B3700969645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		126FA32D1D3D3B3700969645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		126FA3301D3D3B5000969645 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		126FA3311D3D3B5000969645 /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
+		126FA3321D3D3B5000969645 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		126FA3331D3D3B5000969645 /* CircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSlider.swift; sourceTree = "<group>"; };
+		126FA3341D3D3B5000969645 /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
 		12A90CD61D3D353200A08BF3 /* soundz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A90CD91D3D353200A08BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A90CDB1D3D353200A08BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12A90CDE1D3D353200A08BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12A90CE01D3D353200A08BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12A90CE31D3D353200A08BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A90CE51D3D353200A08BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A90CEA1D3D353300A08BF3 /* soundzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A90CEE1D3D353300A08BF3 /* soundzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundzTests.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		12A90CF51D3D353300A08BF3 /* soundzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A90CF91D3D353300A08BF3 /* soundzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundzUITests.swift; sourceTree = "<group>"; };
 		12A90CFB1D3D353300A08BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A90D141D3D368E00A08BF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		12A90D161D3D36A100A08BF3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		12A90D181D3D36AB00A08BF3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A90D191D3D36AB00A08BF3 /* AudioToolbox.framework in Frameworks */,
+				12A90D171D3D36A100A08BF3 /* MediaPlayer.framework in Frameworks */,
+				12A90D151D3D368E00A08BF3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,10 @@
 		12A90CCD1D3D353200A08BF3 = {
 			isa = PBXGroup;
 			children = (
+				12A90D181D3D36AB00A08BF3 /* AudioToolbox.framework */,
+				12A90D161D3D36A100A08BF3 /* MediaPlayer.framework */,
+				12A90D141D3D368E00A08BF3 /* AVFoundation.framework */,
+				12A90D091D3D364D00A08BF3 /* Source */,
 				12A90CD81D3D353200A08BF3 /* soundz */,
 				12A90CED1D3D353300A08BF3 /* soundzTests */,
 				12A90CF81D3D353300A08BF3 /* soundzUITests */,
@@ -99,9 +122,9 @@
 			children = (
 				12A90CD91D3D353200A08BF3 /* AppDelegate.swift */,
 				12A90CDB1D3D353200A08BF3 /* ViewController.swift */,
-				12A90CDD1D3D353200A08BF3 /* Main.storyboard */,
+				126FA32A1D3D3B3700969645 /* LaunchScreen.storyboard */,
+				126FA32C1D3D3B3700969645 /* Main.storyboard */,
 				12A90CE01D3D353200A08BF3 /* Assets.xcassets */,
-				12A90CE21D3D353200A08BF3 /* LaunchScreen.storyboard */,
 				12A90CE51D3D353200A08BF3 /* Info.plist */,
 			);
 			path = soundz;
@@ -123,6 +146,18 @@
 				12A90CFB1D3D353300A08BF3 /* Info.plist */,
 			);
 			path = soundzUITests;
+			sourceTree = "<group>";
+		};
+		12A90D091D3D364D00A08BF3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				126FA3301D3D3B5000969645 /* ActionButton.swift */,
+				126FA3311D3D3B5000969645 /* ActionButtonItem.swift */,
+				126FA3321D3D3B5000969645 /* background1.jpg */,
+				126FA3331D3D3B5000969645 /* CircularSlider.swift */,
+				126FA3341D3D3B5000969645 /* MarqueeLabel.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A90CE41D3D353200A08BF3 /* LaunchScreen.storyboard in Resources */,
+				126FA32E1D3D3B3700969645 /* LaunchScreen.storyboard in Resources */,
 				12A90CE11D3D353200A08BF3 /* Assets.xcassets in Resources */,
-				12A90CDF1D3D353200A08BF3 /* Main.storyboard in Resources */,
+				126FA32F1D3D3B3700969645 /* Main.storyboard in Resources */,
+				126FA3371D3D3B5000969645 /* background1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +297,10 @@
 			files = (
 				12A90CDC1D3D353200A08BF3 /* ViewController.swift in Sources */,
 				12A90CDA1D3D353200A08BF3 /* AppDelegate.swift in Sources */,
+				126FA3361D3D3B5000969645 /* ActionButtonItem.swift in Sources */,
+				126FA3391D3D3B5000969645 /* MarqueeLabel.swift in Sources */,
+				126FA3381D3D3B5000969645 /* CircularSlider.swift in Sources */,
+				126FA3351D3D3B5000969645 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +336,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		12A90CDD1D3D353200A08BF3 /* Main.storyboard */ = {
+		126FA32A1D3D3B3700969645 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				12A90CDE1D3D353200A08BF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		12A90CE21D3D353200A08BF3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12A90CE31D3D353200A08BF3 /* Base */,
+				126FA32B1D3D3B3700969645 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		126FA32C1D3D3B3700969645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126FA32D1D3D3B3700969645 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -485,6 +525,7 @@
 				12A90D001D3D353300A08BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12A90D011D3D353300A08BF3 /* Build configuration list for PBXNativeTarget "soundzTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +534,7 @@
 				12A90D031D3D353300A08BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12A90D041D3D353300A08BF3 /* Build configuration list for PBXNativeTarget "soundzUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +543,7 @@
 				12A90D061D3D353300A08BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
