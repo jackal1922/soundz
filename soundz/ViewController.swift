@@ -144,6 +144,9 @@ class ViewController: UIViewController,MPMediaPickerControllerDelegate,AVAudioPl
         actionButton.action = { button in button.toggleMenu() }
         actionButton.setTitle("+", forState: .Normal)
         actionButton.backgroundColor = UIColor(red: 238.0/255.0, green: 130.0/255.0, blue: 34.0/255.0, alpha:1.0)
+        
+        timeLine.hidden = true
+        volumnSlider.hidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -183,12 +186,16 @@ class ViewController: UIViewController,MPMediaPickerControllerDelegate,AVAudioPl
                 endTime.text = self.formatTimeString(musicPlay!.duration)
                 
                 musicCover.alpha = 0.3
-                musicPlay!.stop()
+                musicPlay!.play()
                 self.checkPlay = 0
-                playButton.setTitle("Play", forState: .Normal)
+                playButton.setBackgroundImage(UIImage(named: "pause.jpg"), forState: .Normal)
+//                playButton.setTitle("Play", forState: .Normal)
                 
+                timeLine.hidden = false
                 timeLine!.maximumValue = Float(musicPlay!.duration)
                 
+                
+                volumnSlider.hidden = false
             } catch  {
                 // 執行發生錯誤
                 musicPlay = nil
@@ -214,7 +221,8 @@ class ViewController: UIViewController,MPMediaPickerControllerDelegate,AVAudioPl
 //            waveView.randomColor = true
             
             updatePlayingTime()
-            playButton.setTitle("Pause", forState: .Normal)
+            playButton.setBackgroundImage(UIImage(named: "pause.jpg"), forState: .Normal)
+//            playButton.setTitle("Pause", forState: .Normal)
             checkPlay = 1
             
             if (playingTimeTimer == nil) {
@@ -227,19 +235,23 @@ class ViewController: UIViewController,MPMediaPickerControllerDelegate,AVAudioPl
                 )
             }
 
-        }else{
+        }else if checkPlay == 1 {
             musicPlay!.pause()
             checkPlay = 0
-            playButton.setTitle("Play", forState: .Normal)
+            playButton.setBackgroundImage(UIImage(named: "play.jpg"), forState: .Normal)
+//            playButton.setTitle("Play", forState: .Normal)
         }
     }
     
     @IBAction func stopButton(sender: AnyObject) {
-        musicPlay!.currentTime = 0
-        self.updatePlayingTime()
-        musicPlay!.stop()
-        checkPlay = 0
-        playButton.setTitle("Play", forState: .Normal)
+        if musicPlay?.url != nil {
+            musicPlay!.currentTime = 0
+            self.updatePlayingTime()
+            musicPlay!.stop()
+            checkPlay = 0
+            playButton.setBackgroundImage(UIImage(named: "play.jpg"), forState: .Normal)
+    //        playButton.setTitle("Play", forState: .Normal)
+        }
     }
     //----------------------------- [ volume slide ] -----------------------------
     @IBAction func volumeSlider(sender: UISlider) {
